@@ -18,6 +18,11 @@
 		5226C27C16D5C4C100C6B033 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5226C27B16D5C4C100C6B033 /* Default-568h@2x.png */; };
 		5226C27F16D5C4C100C6B033 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226C27E16D5C4C100C6B033 /* CViewController.m */; };
 		5226C28216D5C4C100C6B033 /* CViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5226C28016D5C4C100C6B033 /* CViewController.xib */; };
+		5226C28916D5C5D100C6B033 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5226C28816D5C5D100C6B033 /* SDWebImage.framework */; };
+		5226C28B16D5C65400C6B033 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5226C28A16D5C65400C6B033 /* ImageIO.framework */; };
+		5226C28D16D5D00400C6B033 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5226C28C16D5D00400C6B033 /* placeholder@2x.png */; };
+		5226C29116D5D1CA00C6B033 /* CacheShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226C28F16D5D1CA00C6B033 /* CacheShowViewController.m */; };
+		5226C29216D5D1CA00C6B033 /* CacheShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5226C29016D5D1CA00C6B033 /* CacheShowViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,12 @@
 		5226C27D16D5C4C100C6B033 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
 		5226C27E16D5C4C100C6B033 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		5226C28116D5C4C100C6B033 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CViewController.xib; sourceTree = "<group>"; };
+		5226C28816D5C5D100C6B033 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		5226C28A16D5C65400C6B033 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		5226C28C16D5D00400C6B033 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
+		5226C28E16D5D1CA00C6B033 /* CacheShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheShowViewController.h; sourceTree = "<group>"; };
+		5226C28F16D5D1CA00C6B033 /* CacheShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheShowViewController.m; sourceTree = "<group>"; };
+		5226C29016D5D1CA00C6B033 /* CacheShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CacheShowViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +55,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5226C28B16D5C65400C6B033 /* ImageIO.framework in Frameworks */,
 				5226C26616D5C4C100C6B033 /* UIKit.framework in Frameworks */,
 				5226C26816D5C4C100C6B033 /* Foundation.framework in Frameworks */,
 				5226C26A16D5C4C100C6B033 /* CoreGraphics.framework in Frameworks */,
+				5226C28916D5C5D100C6B033 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,8 @@
 		5226C26416D5C4C100C6B033 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5226C28A16D5C65400C6B033 /* ImageIO.framework */,
+				5226C28816D5C5D100C6B033 /* SDWebImage.framework */,
 				5226C26516D5C4C100C6B033 /* UIKit.framework */,
 				5226C26716D5C4C100C6B033 /* Foundation.framework */,
 				5226C26916D5C4C100C6B033 /* CoreGraphics.framework */,
@@ -88,6 +103,9 @@
 				5226C27D16D5C4C100C6B033 /* CViewController.h */,
 				5226C27E16D5C4C100C6B033 /* CViewController.m */,
 				5226C28016D5C4C100C6B033 /* CViewController.xib */,
+				5226C28E16D5D1CA00C6B033 /* CacheShowViewController.h */,
+				5226C28F16D5D1CA00C6B033 /* CacheShowViewController.m */,
+				5226C29016D5D1CA00C6B033 /* CacheShowViewController.xib */,
 				5226C26C16D5C4C100C6B033 /* Supporting Files */,
 			);
 			path = CacheByMac;
@@ -96,6 +114,7 @@
 		5226C26C16D5C4C100C6B033 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5226C28C16D5D00400C6B033 /* placeholder@2x.png */,
 				5226C26D16D5C4C100C6B033 /* CacheByMac-Info.plist */,
 				5226C26E16D5C4C100C6B033 /* InfoPlist.strings */,
 				5226C27116D5C4C100C6B033 /* main.m */,
@@ -164,6 +183,8 @@
 				5226C27A16D5C4C100C6B033 /* Default@2x.png in Resources */,
 				5226C27C16D5C4C100C6B033 /* Default-568h@2x.png in Resources */,
 				5226C28216D5C4C100C6B033 /* CViewController.xib in Resources */,
+				5226C28D16D5D00400C6B033 /* placeholder@2x.png in Resources */,
+				5226C29216D5D1CA00C6B033 /* CacheShowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +198,7 @@
 				5226C27216D5C4C100C6B033 /* main.m in Sources */,
 				5226C27616D5C4C100C6B033 /* CAppDelegate.m in Sources */,
 				5226C27F16D5C4C100C6B033 /* CViewController.m in Sources */,
+				5226C29116D5D1CA00C6B033 /* CacheShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +283,15 @@
 		5226C28616D5C4C100C6B033 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CacheByMac/CacheByMac-Prefix.pch";
 				INFOPLIST_FILE = "CacheByMac/CacheByMac-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,9 +300,15 @@
 		5226C28716D5C4C100C6B033 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CacheByMac/CacheByMac-Prefix.pch";
 				INFOPLIST_FILE = "CacheByMac/CacheByMac-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

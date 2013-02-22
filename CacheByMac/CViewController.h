@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "CacheShowViewController.h"
+@interface CViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
 
-@interface CViewController : UIViewController
-
+    UITableView *table;
+    UIButton*button;
+}
+@property(nonatomic,strong)IBOutlet UITableView *table;
+@property(nonatomic,strong)CacheShowViewController*cacheView;
 @end
